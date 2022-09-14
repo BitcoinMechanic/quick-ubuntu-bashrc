@@ -15,5 +15,5 @@ echo "alias gittagl='git tag --sort=-creatordate'" >> ~/.bashrc
 echo "alias gss='git status'" >> ~/.bashrc
 echo "##scripts" >> ~/.bashrc
 echo "ws () {" >> ~/.bashrc
-  wormhole send $1" >> ~/.bashrc
-}" >> ~/.bashrc
+echo "  wormhole send $1" >> ~/.bashrc
+echo "}" >> ~/.bashrc
